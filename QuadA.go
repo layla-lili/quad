@@ -2,9 +2,11 @@ package main
 
 import "github.com/01-edu/z01"
 
-func main() {
-	QuadA(1, 5)
-}
+// import "github.com/01-edu/z01"
+
+// func main() {
+// 	QuadA(1, 5)
+// }
 
 func QuadA(x, y int) {
 	if x > 0 && y > 0 {
