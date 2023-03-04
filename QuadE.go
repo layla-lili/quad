@@ -1,10 +1,10 @@
-package piscine
+package main
 
 import "github.com/01-edu/z01"
 
-// func main() {
-// 	QuadE(5, 3)
-// }
+func main() {
+	QuadE(1, 5)
+}
 
 func QuadE(x, y int) {
 	//check width and height greater than zero
@@ -31,7 +31,7 @@ func QuadE(x, y int) {
 				for i := 1; i < x-1; i++ {
 					z01.PrintRune('B')
 				}
-				if x > 1 || a == y-1 {
+				if x > 1 {
 					z01.PrintRune('A')
 				}
 				z01.PrintRune('\n')
