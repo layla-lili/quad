@@ -1,10 +1,10 @@
-package main
+package piscine
 
 import "github.com/01-edu/z01"
 
-func main() {
-	QuadB(5, 3)
-}
+// func main() {
+// 	QuadB(1, 1)
+// }
 
 func QuadB(x, y int) {
 	//check width and height greater than zero

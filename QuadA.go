@@ -1,8 +1,6 @@
-package main
+package piscine
 
 import "github.com/01-edu/z01"
-
-// import "github.com/01-edu/z01"
 
 // func main() {
 // 	QuadA(1, 5)
